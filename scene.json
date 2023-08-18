@@ -7,8 +7,8 @@
   },
   "owner": "0xd5e9eF1CedAd0D135d543D286a2c190B16cBb89E",
   "contact": {
-    "name": "author-name",
-    "email": ""
+    "name": "NFT World",
+    "email": "support@nftworld.io"
   },
   "main": "bin/game.js",
   "tags": [],
