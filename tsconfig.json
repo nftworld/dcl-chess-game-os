@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "outFile": "./bin/game.js",
+    "allowJs": true,
+    "strict": true,
+    "paths": {
+      "@dcl/ecs-scene-utils": [
+        "node_modules\\@dcl\\ecs-scene-utils\\dist\\index.d.ts",
+        "node_modules/@dcl/ecs-scene-utils/dist/index.d.ts",
+        "node_modules/.pnpm/@dcl+ecs-scene-utils@1.7.5_decentraland-ecs@6.11.11/node_modules/@dcl/ecs-scene-utils/dist/index.d.ts",
+        "node_modules/.pnpm/@dcl+ecs-scene-utils@1.7.5_decentraland-ecs@6.11.12/node_modules/@dcl/ecs-scene-utils/dist/index.d.ts"
+      ],
+      "eth-connect": [
+        "node_modules\\eth-connect\\eth-connect.d.ts",
+        "node_modules/eth-connect/eth-connect.d.ts",
+        "node_modules/.pnpm/eth-connect@6.0.3/node_modules/eth-connect/eth-connect.d.ts",
+        "node_modules/.pnpm/eth-connect@6.1.0/node_modules/eth-connect/eth-connect.d.ts"
+      ],
+      "decentraland-transactions": [
+        "node_modules\\decentraland-transactions\\decentraland-transactions.d.ts",
+        "node_modules/decentraland-transactions/decentraland-transactions.d.ts",
+        "node_modules/.pnpm/decentraland-transactions@1.42.0/node_modules/decentraland-transactions/decentraland-transactions.d.ts",
+        "node_modules/.pnpm/decentraland-transactions@1.43.1/node_modules/decentraland-transactions/decentraland-transactions.d.ts"
+      ],
+      "@dcl/l2-scene-utils": [
+        "node_modules\\@dcl\\l2-scene-utils\\dist\\index.d.ts",
+        "node_modules/@dcl/l2-scene-utils/dist/index.d.ts"
+      ],
+      "@dcl/ui-scene-utils": [
+        "node_modules\\@dcl\\ui-scene-utils\\dist\\index.d.ts",
+        "node_modules/@dcl/ui-scene-utils/dist/index.d.ts",
+        "node_modules/.pnpm/@dcl+ui-scene-utils@1.8.4/node_modules/@dcl/ui-scene-utils/dist/index.d.ts"
+      ]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "extends": "./node_modules/decentraland-ecs/types/tsconfig.json",
+  "compileOnSave": false
+}

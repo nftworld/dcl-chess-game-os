@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Scene",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "url": "${command:decentraland.commands.getDebugURL}",
+      "webRoot": "${workspaceFolder}/src"
+    },
+
+    {
+      "name": "Debug Backend",
+      "type": "node",
+      "request": "attach",
+      "port": 9229
+    }
+  ]
+}

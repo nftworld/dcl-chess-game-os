@@ -1,0 +1,11 @@
+package-lock.json
+node_modules
+bin/
+images/
+models/
+*-debug.log
+.emulator
+.env
+.env.default
+.env.dev
+keys.json
